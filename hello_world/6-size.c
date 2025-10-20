@@ -5,7 +5,7 @@
 *
 * Return: Always 0 (Success)
 */
-int main(void)
+int size32(void)
 {
 	printf("Size of a char: 1 byte(s)\n");
         printf("Size of an int: 4 byte(s)\n");
@@ -14,7 +14,7 @@ int main(void)
         printf("Size of a float: 4 byte(s)\n");
 	return (0);
 }
-int main(void)
+int size64(void)
 {
 	printf("Size of a char: 1 byte(s)\n");
 	printf("Size of an int: 4 byte(s)\n");
