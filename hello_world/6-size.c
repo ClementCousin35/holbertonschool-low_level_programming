@@ -7,6 +7,6 @@
 */
 int main(void)
 {
-	puts
+	puts("size32");
 	return (0);
 }
