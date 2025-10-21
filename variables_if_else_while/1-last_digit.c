@@ -16,7 +16,7 @@ int main(void)
 
 	if (n == 0)
         {
-                printf("Last digit of %1d is 0 and is 0\n", n);
+                printf("Last digit of %0.1d is 0 and is 0\n", n);
         }
         if (n > 5)
         {
