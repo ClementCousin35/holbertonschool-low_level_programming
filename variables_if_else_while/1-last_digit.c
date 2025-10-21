@@ -10,21 +10,21 @@
 int main(void)
 {
         int n;
-
+	int d;
         srand(time(0));
         n = rand() - RAND_MAX / 2;
-
-	if (n == 0)
+	d = n % 10;
+	if (d == 0)
         {
-                printf("Last digit of %0.1d is 0 and is 0\n", n);
+                printf("Last digit of %d is 0 and is 0\n", n);
         }
-        if (n > 5)
+        if (d > 5)
         {
-                printf("Last digit of %1d is 8 and is greater than 5\n", n);
+                printf("Last digit of %d is 8 and is greater than 5\n", n);
         }
-        if (n < 6)
+        if (d < 6)
         {
-                printf("Last digit of %1d is -8 and is less than 6 and not 0\n", n);
+                printf("Last digit of %d is -8 and is less than 6 and not 0\n", n);
         }
         return (0);
 }
