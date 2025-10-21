@@ -18,7 +18,7 @@ int main(void)
 	{
 		printf("is positive\n");
 	}
-	if ((n= 0))
+	if ((n== 0))
 	{
 		printf("is zero\n");
 	}
