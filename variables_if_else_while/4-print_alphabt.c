@@ -7,16 +7,16 @@
 */
 int main(void)
 {
-        char c;
+	char c;
 
-        for (c = 'a'; c <= 'z'; c++)
-        {
-        putchar(c);
+	for (c = 'a'; c <= 'z'; c++)
+	{
+	putchar(c);
 	}
-	if (c = 'q'; c = 'e')
+	if ((c = 'q' && c == 'e'))
 	{
 	remove("c");
-        }
-        putchar('\n');
-        return (0);
+	}
+	putchar('\n');
+	return (0);
 }
