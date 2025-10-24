@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* _islower- Je sais pas ce qu'elle fais merci
-* description pour le c- tu es bien chiant
+* _islower- Je sais pas 'a' ce qu'elle fais merci
+* @c: Je crois que c'est bon la description
 * Return: Always 0 (Success)
 */
 
