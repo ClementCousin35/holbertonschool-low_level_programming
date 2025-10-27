@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
-* print_numbers- Starfoula je te alala betty
-* @c: Salut c moi c=c'est :)
+* print_numbers- Starfoula
 * Return: Always 0 (Success)
 */
 void print_numbers(void)
 {
-
 	char c;
 
 	for (c = 48; c <= 57; c++)
