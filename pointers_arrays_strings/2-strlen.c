@@ -9,8 +9,6 @@
 
 int _strlen(char *s)
 {
-	int b;
-
-	b = putchar(*s);
-return (b);
+	 printf("%s", s);
+return (*s);
 }
