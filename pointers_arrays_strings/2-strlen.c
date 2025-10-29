@@ -11,6 +11,6 @@ int _strlen(char *s)
 {
 	int b;
 
-	b = printf("%s", s);
+	b = putchar(*s);
 return (b);
 }
