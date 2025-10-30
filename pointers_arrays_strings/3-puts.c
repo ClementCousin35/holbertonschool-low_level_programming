@@ -10,6 +10,11 @@
 
 void _puts(char *str)
 {
-	_puts(str);
-	free(str);
+	int l;
+
+	for(l = 0; *str != '\0'; l++)
+	{
+	str++;
+	printf("%s\n", str);
+	}
 }
