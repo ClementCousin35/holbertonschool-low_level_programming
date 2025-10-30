@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 * _puts- affiche les messages
@@ -9,5 +10,7 @@
 
 void _puts(char *str)
 {
+
 	printf("%s\n", str);
+	free(str);
 }
