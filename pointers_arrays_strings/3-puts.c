@@ -1,21 +1,16 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
-* _puts- affiche les messages
-* @str: message a transcrire
-* Return: Always 0 (Success)
-*/
-
+ * _puts - prints a string to stdout
+ * @str: pointer to the string to print
+ */
 void _puts(char *str)
 {
-	int l;
+	int i;
 
-	for(l = 0; *str != '\0'; l++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-	str++;
-	_puts(str);
+	_putchar(str[i]);
 	}
-	free(str);
+	_putchar('\n');
 }
