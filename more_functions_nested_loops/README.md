@@ -1,1 +1,9 @@
-Salut, je suis la pour controler X
+0. 2
+1. 1
+2. 3
+3. 3
+4. 2
+5. 2
+6. 1
+7. 2
+8. 3
